@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345602689099",
+    "project_id": "pruebatomafotos",
+    "storage_bucket": "pruebatomafotos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345602689099:android:7aef15862eff970230a5ce",
+        "android_client_info": {
+          "package_name": "com.example.pruebatomafotos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJNlh7ROjJ_yILA1VkhexfTWEf3Xu8iBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

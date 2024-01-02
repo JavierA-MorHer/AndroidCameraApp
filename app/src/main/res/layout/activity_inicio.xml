@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio">
+
+    <Button
+        android:id="@+id/upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subir Imagen"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Elegir imagen"
+        app:layout_constraintBottom_toTopOf="@+id/upload_image"
+        tools:layout_editor_absoluteX="269dp" />
+
+    <ImageButton
+        android:id="@+id/openCamera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="Abrir Camara"
+        android:background="@drawable/camera_icon"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="808dp"
+        android:layout_height="593dp"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
